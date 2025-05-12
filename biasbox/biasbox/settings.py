@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # user-defined apps
     'inventory_section',
+
+    # user-installed pip
     'location_field.apps.DefaultConfig',
 ]
 
